@@ -145,3 +145,48 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+/* Portfolio styles */
+.app {
+  padding: 2%;
+}
+
+.img_container {
+  margin: 3%;
+}
+
+
+.porfolio_img {
+  width: 700px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.app_specs {
+  margin-left: 3%;
+  width: 700px;
+}
+
+.portfolio_icon {
+  max-width: 130px;
+  max-height: 30px;
+  margin: 5px 10px;
+}
+
+.button_set {
+  margin: 80px 0% 3% 20%;
+}
+
+.app_button {
+  background-color: #BD5D38;
+    color: white;
+    width: 13%;
+    min-width: 110px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.app_button:hover {
+  color: rgba(255,255,255,.75)
+}
