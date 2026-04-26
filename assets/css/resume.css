@@ -156,14 +156,16 @@ a:hover, a:focus, a:active {
 
 
 .porfolio_img {
-  width: 700px;
+  width: 140%;
+  max-width: 700px;
   border-style: solid;
   border-width: 1px;
 }
 
 .app_specs {
   margin-left: 3%;
-  width: 700px;
+  width: 130%;
+  max-width: 700px;
 }
 
 .portfolio_icon {
@@ -173,7 +175,9 @@ a:hover, a:focus, a:active {
 }
 
 .button_set {
-  margin: 80px 0% 3% 20%;
+    margin: 80px 0% 3% 15%;
+    width: 50%;
+    min-width: 230px;
 }
 
 .app_button {
